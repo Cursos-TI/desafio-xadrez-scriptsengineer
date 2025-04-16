@@ -18,7 +18,7 @@ int main() {
     printf("Movimentação do bispo:\n");
     for(int i = 0; i < bishop_move_count; i++)
     {
-        printf("\tMoveu para cima/direita\n");
+        printf("\tCima/Direita\n");
     }
 
     // Implementação de Movimentação da Torre
@@ -28,7 +28,7 @@ int main() {
     int actual_tower_moves = 0;
     while(actual_tower_moves < tower_move_count)
     {
-        printf("\tMoveu para direita\n");
+        printf("\tDireita\n");
         actual_tower_moves++;
     }
 
@@ -40,7 +40,7 @@ int main() {
     int actual_queen_moves = 0;
     do
     {
-        printf("\tMoveu para esquerda\n");
+        printf("\tEsquerda\n");
         actual_queen_moves++;
     }
     while(actual_queen_moves < queen_move_count);
